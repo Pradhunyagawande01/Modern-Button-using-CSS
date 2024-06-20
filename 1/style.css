@@ -1,7 +1,9 @@
 button{
     background-color: rgb(207, 83, 83);
     color: white;
+    transition: 1s;
 }
+
 button:hover{
     background-color: rgb(15, 227, 11);
 }
