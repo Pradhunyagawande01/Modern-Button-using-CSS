@@ -1,0 +1,19 @@
+.b {
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    border-radius: 40px;
+    border: 2px solid skyblue;
+    background-color:aliceblue;
+    height: 50px;
+    width: 100px;
+    transition: 1s;
+}
+
+.b:hover {
+    background-color: skyblue;
+    color: rgb(255, 36, 36);
+    cursor: pointer;
+    box-shadow: 0px 2px 10px;
+}
+
