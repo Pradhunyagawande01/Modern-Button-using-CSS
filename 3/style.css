@@ -1,0 +1,25 @@
+.b{
+    border-radius: 15px;
+    background-color: rgb(235, 33, 33);
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.b:hover{
+    background-color: rgb(50, 235, 33);
+    color: white;
+    cursor: pointer;
+    transition: 00.4s;
+}
