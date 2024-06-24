@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 235, 235);
+}
+
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 15px;
+    
+}
+.b:hover{
+    font-size: bold;
+    color: black;
+    cursor: pointer;
+    background: conic-gradient(red, orange, yellow, green, blue);
+}
